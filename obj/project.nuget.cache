@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WVmZQFkABPJuHtlckDQ11J6BSlk00tywmVvZhJMW4OnzNZkpLGZX73R6DRrRKDBEYOW5nD3uhow2XOjih/mqwQ==",
+  "dgSpecHash": "OoREv1SRxCBq9IWrkspPpY+H/LCIcYd1feYV0T6WdiHEtAl9bwSinSnlSHkmFV9P3SPUXtatLKhQIo8b1ZBwXg==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\tech-test-payment-api\\tech-test-payment-api.csproj",
+  "projectFilePath": "C:\\tech-test-payment-api\\tech-test-payment-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prang\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\prang\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

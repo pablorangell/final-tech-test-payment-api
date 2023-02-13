@@ -56,5 +56,19 @@ namespace tech_test_payment_api.Controllers
 
             return Ok(vendedor);
         }
+
+        [HttpDelete("Deletar Vendedor")]
+        public IActionResult Delete(int id)
+        {
+            var vendedor = _vendedorContext.Vendedor.Find(id);
+
+            if(vendedor == null)
+                return NotFound();
+
+            _vendedorContext.Remove(vendedor);
+            _vendedorContext.SaveChanges();
+
+            return NoContent();
+        }
     }
 }
